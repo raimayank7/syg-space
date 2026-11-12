@@ -1,0 +1,10 @@
+/* space.shareyourgroup.com */
+.src{font-size:.86rem;color:var(--soft);border-left:3px solid var(--line);padding-left:10px}
+.worlds{list-style:none;padding:0;margin:14px 0;display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(46%,150px),1fr))}
+.worlds a{display:flex;flex-direction:column;gap:2px;min-height:64px;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--surface);text-decoration:none;color:var(--ink)}
+.worlds a:hover{border-color:var(--accent);box-shadow:var(--shadow)}.worlds b{font:700 1.05rem var(--font-head)}.worlds span{font-size:.84rem;color:var(--soft)}
+.scalebox{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:10px}
+.scale{display:block;min-width:640px;width:100%;height:auto;font:600 11px var(--font)}.scale .pl{fill:color-mix(in srgb,var(--accent) 45%,transparent);stroke:var(--ink);stroke-width:1}.scale text{fill:var(--ink)}
+.prose table th{white-space:normal}
+.prose .acts,.wrap>.acts{display:flex}
+@media print{.tbl{border:0;overflow:visible}th{position:static}}
